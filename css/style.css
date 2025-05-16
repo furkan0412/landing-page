@@ -39,16 +39,69 @@ h6 {
     padding: 10px;
 }
 
-li a {
-    color: black;
+ul li a {
+    color: #2596be;
     text-decoration: none;
 }
 
 li a:visited {
-    color: black;
+    color: #abacae;
     text-decoration: none;
 }
 
 .logo {
     max-width: 100px;
+}
+
+.main-style {
+    background-color: #1f2937;
+}
+
+.main-flex {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-flex .flex-item-first:nth-child(1) {
+
+}
+
+.main-flex .flex-item-second:nth-child(2) {
+    margin-inline-start: 20px;
+}
+
+.secondary-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #f9faf8;
+    margin: 20px;
+}
+
+p {
+    color: #c3c5c0;
+    margin: 10px;
+}
+
+.my-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px;
+    max-width: 25%;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+}
+
+.transistor-img {
+    max-width: 50%;
+    height: auto;
 }
