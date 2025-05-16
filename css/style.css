@@ -55,6 +55,7 @@ li a:visited {
 
 .main-style {
     background-color: #1f2937;
+    padding: 20px 50px;
 }
 
 .main-flex {
@@ -90,12 +91,13 @@ p {
     border-radius: 12px;
     cursor: pointer;
     padding: 10px;
-    max-width: auto;
     margin: 10px 20px;
     font-weight: bold;
     font-size: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
     outline: none;
+    transform: scale(1.05);
+    border: 1px solid white;
 }
 
 .transistor-img {
@@ -108,9 +110,9 @@ p {
 }
 
 .type-section-styling h2 {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .type-section {
@@ -121,8 +123,9 @@ p {
 }
 
 .type-section-styling p {
-    color: black;
-    font-size: 1rem;
+    color: rgb(34, 34, 34);
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .type-section img {
@@ -137,4 +140,77 @@ p {
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.block-quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote {
+    font-family: "Jetbrains Mono", "Monaspace Krypton", monospace;
+    font-size: 1.4rem;
+    border: 5px solid rgb(234, 234, 245);
+    border-radius: 8px;
+    line-height: 1.7rem;
+}
+
+blockquote::before {
+      content: open-quote;
+      font-size: 2em;
+      color: #007bff;
+      margin-right: 10px;
+}
+
+.third-flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+.third-flex h3 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.third-flex p {
+    color: rgb(235, 235, 235);
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.second-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    outline: none;
+    transform: scale(1.05);
+    border: 2px solid white;
+}
+
+.sub-flex-first {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-class {
+    color: white;
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    max-inline-size: 1000px;
+    margin: auto;
 }

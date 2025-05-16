@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Landing Page Project</title>
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">    
     </head>
 
     <body>
         <div class="wrapper">
             <div class="main-style">
-            <header class="">
+            <header>
                 <div class="primary-nav">
                     <img class="logo" src="/assets/images/28267842_7.svg" alt="Logo">
                     <nav>
@@ -26,35 +28,53 @@
             <main>
                 <div class="main-flex">
                     <div class="secondary-flex">
-                        <h1 class=flex-item-first>Transistors are awesome</h1>
+                        <h1 class="flex-item-first">Transistors are awesome</h1>
                         <p class="flex-item-second">Transistors are semiconductor devices that act as electronic switches or amplifiers, controlling the flow of electrical current in circuits. They are fundamental components in modern electronics, enabling the functionality of computers, smartphones, and other devices.</p>
-                        <button class="my-button">Sign up</button>
+                        <button class="my-button" type="button">Sign up</button>
                     </div>
                     <img class="transistor-img flex-item-third" src="/assets/images/transistor.jpg" alt="a computer motherboard showing a part of its all components">
                 </div>
-
+                </div>
                     <div class="type-section-styling">
 
                     <h2>Different Types of Transistors</h2>
                     <div class="type-section">
                     <div class="sub-flex-section">
-                    <img src="assets/images/BJT.jpg" alt="A few BJT transistors on a place">
+                    <img src="/assets/images/BJT.jpg" alt="A few BJT transistors on a place">
                     <p>A BJT (Bipolar Junction Transistor) is a three-terminal semiconductor device used for amplification or switching in electronic circuits. It consists of three regions: emitter, base, and collector, formed by doping a semiconductor material to create NPN or PNP configurations.</p>
                     </div>
                     <div class="sub-flex-section">
-                    <img src="assets/images/FET.jpg" alt="Four FET transistors on a computer motherboard">
+                    <img src="/assets/images/FET.jpg" alt="Four FET transistors on a computer motherboard">
                     <p>A FET (Field-Effect Transistor) is a three-terminal semiconductor device used for switching and amplification in electronic circuits. It consists of a source, gate, and drain, with current flow controlled by an electric field created by the voltage applied to the gate.</p>
                     </div>
                     
                     <div class="sub-flex-section">
-                    <img src="assets/images/IGBT.jpg" alt="Many IGBT transistors sitting on a motherboard">
+                    <img src="/assets/images/IGBT.jpg" alt="Many IGBT transistors sitting on a motherboard">
                     <p>An IGBT (Insulated Gate Bipolar Transistor) is a three-terminal power semiconductor device combining the high input impedance of a MOSFET with the low on-state power loss of a BJT.</p>
                     </div>
                     </div>
                 </div>
             </main>
+
+            <section class="block-quote">
+                <blockquote class="quote">At the heart of every digital revolution lies the humble transistor—small in size, colossal in impact. It transformed the way we communicate, compute, and create, enabling the extraordinary complexity of modern technology from smartphones to space exploration.</blockquote>
+            </section>
+        
+            <section>
+                <div class="third-flex">
+                    <div class="sub-flex-first">
+                        <h3 class="flex-item-third">Are you ready for more?</h3>
+                        <p class="third-flex-item">If you want to learn more about transistors, I have good news. Just click the button in the right side and have great knowledge. Have fun!</p>
+                    </div>
+                    <button class="second-button third-flex-item" type="button">Transistor World</a></button>
+                </div>
+            </section>
+
         </div>
-        </div>
+
+        <footer class="footer-class">
+            <p>Copyright &copy; The Odin Project 2025</p>
+        </footer>
     </body>
 
 </html>
