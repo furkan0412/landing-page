@@ -1,1 +1,1 @@
-# landing-page
+This repository contains a landing page project for The Odin Project's exercise.
